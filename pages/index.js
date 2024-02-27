@@ -41,7 +41,7 @@ const Home = (props) => {
                 className="home-nav"
               >
                 <div className="home-container1">
-                  <img alt="image" src="/logo.svg" className="home-image" />
+                  <img alt="image" src="/logo-1500h.png" className="home-image" />
                   <div data-thq="thq-close-menu" className="home-menu-close">
                     <svg viewBox="0 0 1024 1024" className="home-icon01">
                       <path d="M810 274l-238 238 238 238-60 60-238-238-238 238-60-60 238-238-238-238 60-60 238 238 238-238z"></path>
