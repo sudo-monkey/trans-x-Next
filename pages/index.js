@@ -247,7 +247,7 @@ const Home = (props) => {
                   <div data-role="current-banner" className="banner">
                     <img
                       alt="image"
-                      src="/singpost-200h.jpg"
+                      src="/singpost-400h.png"
                       className="home-image02"
                     />
                     <div className="home-content02">
@@ -302,7 +302,7 @@ const Home = (props) => {
                   <div data-role="current-banner" className="banner">
                     <img
                       alt="image"
-                      src="https://play.teleporthq.io/static/svg/placeholders/no-image.svg"
+                      src="/exim-400h.jpg"
                       className="home-image04"
                     />
                     <div className="home-content04">
@@ -1735,6 +1735,7 @@ document.addEventListener("DOMContentLoaded", function() {
             height: 14px;
           }
           .home-image02 {
+            height: 400px;
             object-fit: cover;
             aspect-ratio: 1;
           }
@@ -3867,6 +3868,9 @@ document.addEventListener("DOMContentLoaded", function() {
               max-width: 600px;
               line-height: 24px;
             }
+            .home-more1 {
+              align-self: flex-start;
+            }
             .home-caption09 {
               color: rgb(255, 255, 255);
             }
@@ -3909,8 +3913,8 @@ document.addEventListener("DOMContentLoaded", function() {
             }
             .home-content04 {
               gap: var(--dl-space-space-unit);
-              width: 187px;
-              height: 164px;
+              width: 213px;
+              height: 172px;
               padding-top: var(--dl-space-space-oneandhalfunits);
               padding-left: var(--dl-space-space-oneandhalfunits);
               padding-right: var(--dl-space-space-oneandhalfunits);
@@ -3923,6 +3927,7 @@ document.addEventListener("DOMContentLoaded", function() {
             }
             .home-heading05 {
               color: rgb(255, 255, 255);
+              font-size: 24px;
             }
             .home-caption12 {
               color: rgb(204, 204, 255);
