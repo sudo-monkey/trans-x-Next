@@ -54,10 +54,10 @@ const Home = (props) => {
                   className="home-nav1"
                 >
                   <span className="home-text">About</span>
-                  <span className="home-text01">Features</span>
-                  <span className="home-text02">Pricing</span>
-                  <span className="home-text03">Team</span>
-                  <span className="home-text04">Blog</span>
+                  <span className="home-text001">Features</span>
+                  <span className="home-text002">Pricing</span>
+                  <span className="home-text003">Team</span>
+                  <span className="home-text004">Blog</span>
                 </nav>
                 <div className="home-container2">
                   <button className="home-login button">Login</button>
@@ -107,7 +107,7 @@ const Home = (props) => {
                       }}
                     />
                   </span>
-                  <span className="home-text08">confidence</span>
+                  <span className="home-text008">confidence</span>
                   <br></br>
                 </h1>
               </div>
@@ -126,7 +126,7 @@ const Home = (props) => {
         </section>
         <section className="home-note">
           <h2 className="home-caption01">
-            <span className="home-text13">
+            <span className="home-text013">
               Trans-X is a fully registered enterprise based in Malaysia
               providing physical goods sales &amp; services on various
               e-commerce platforms. We are also a registered member under
@@ -160,8 +160,8 @@ const Home = (props) => {
         <section className="home-slider">
           <div className="home-header04">
             <h2 className="home-heading01">
-              <span className="home-text15">We do more than just sales</span>
-              <span className="home-text16">
+              <span className="home-text015">We do more than just sales</span>
+              <span className="home-text016">
                 .
                 <span
                   dangerouslySetInnerHTML={{
@@ -192,16 +192,16 @@ const Home = (props) => {
             </p>
             <div className="home-slide-titles">
               <div className="slide-title">
-                <span>Digital Contract</span>
-              </div>
-              <div className="slide-title slide-title-active">
                 <span>Ecosystems</span>
               </div>
-              <div className="slide-title">
-                <span>Development</span>
+              <div className="slide-title slide-title-active">
+                <span>Logistics</span>
               </div>
               <div className="slide-title">
-                <span>Integration</span>
+                <span>Fulfilment</span>
+              </div>
+              <div className="slide-title">
+                <span>After-sales</span>
               </div>
             </div>
           </div>
@@ -214,16 +214,30 @@ const Home = (props) => {
                   <div data-role="current-banner" className="banner">
                     <img
                       alt="image"
-                      src="/slider-ecosystems-400h.png"
+                      src="/dhl-400h.png"
                       className="home-image01"
                     />
                     <div className="home-content01">
                       <div className="home-header05">
-                        <h3 className="home-heading02">Digital Contract</h3>
-                        <p className="home-caption06">Coming soon.</p>
+                        <h3 className="home-heading02">
+                          <span>DHL</span>
+                          <br></br>
+                        </h3>
+                        <p className="home-caption06">
+                          <span>
+                            Over 220
+                            <span
+                              dangerouslySetInnerHTML={{
+                                __html: ' ',
+                              }}
+                            />
+                          </span>
+                          <br></br>
+                          <span>destinations worldwide</span>
+                        </p>
                       </div>
                       <div className="home-more">
-                        <span className="home-caption07">Read More</span>
+                        <span className="home-caption07">Visit</span>
                         <svg viewBox="0 0 1024 1024" className="home-icon09">
                           <path d="M298.667 341.333h323.669l-353.835 353.835c-16.683 16.683-16.683 43.691 0 60.331s43.691 16.683 60.331 0l353.835-353.835v323.669c0 23.552 19.115 42.667 42.667 42.667s42.667-19.115 42.667-42.667v-426.667c0-5.803-1.152-11.307-3.243-16.341s-5.163-9.728-9.216-13.781c-0.043-0.043-0.043-0.043-0.085-0.085-3.925-3.925-8.619-7.083-13.781-9.216-5.035-2.091-10.539-3.243-16.341-3.243h-426.667c-23.552 0-42.667 19.115-42.667 42.667s19.115 42.667 42.667 42.667z"></path>
                         </svg>
@@ -233,38 +247,52 @@ const Home = (props) => {
                   <div data-role="current-banner" className="banner">
                     <img
                       alt="image"
-                      src="/slider-ecosystems-400h.png"
+                      src="/singpost-200h.jpg"
                       className="home-image02"
                     />
                     <div className="home-content02">
                       <div className="home-header06">
-                        <h3 className="home-heading03">Ecosystems</h3>
+                        <h3 className="home-heading03">SingPost</h3>
                         <p className="home-caption08">
-                          <span>Coming soon.</span>
+                          <span>
+                            Over 220
+                            <span
+                              dangerouslySetInnerHTML={{
+                                __html: ' ',
+                              }}
+                            />
+                          </span>
+                          <br></br>
+                          <span>destinations worldwide</span>
                           <br></br>
                         </p>
                       </div>
                       <div className="home-more1">
-                        <span className="home-caption09">Read More</span>
+                        <span className="home-caption09">Visit</span>
                         <svg viewBox="0 0 1024 1024" className="home-icon11">
                           <path d="M298.667 341.333h323.669l-353.835 353.835c-16.683 16.683-16.683 43.691 0 60.331s43.691 16.683 60.331 0l353.835-353.835v323.669c0 23.552 19.115 42.667 42.667 42.667s42.667-19.115 42.667-42.667v-426.667c0-5.803-1.152-11.307-3.243-16.341s-5.163-9.728-9.216-13.781c-0.043-0.043-0.043-0.043-0.085-0.085-3.925-3.925-8.619-7.083-13.781-9.216-5.035-2.091-10.539-3.243-16.341-3.243h-426.667c-23.552 0-42.667 19.115-42.667 42.667s19.115 42.667 42.667 42.667z"></path>
                         </svg>
                       </div>
                     </div>
                   </div>
-                  <div data-role="current-banner" className="banner">
+                  <div
+                    data-role="current-banner"
+                    className="banner home-slide2"
+                  >
                     <img
                       alt="image"
-                      src="/slider-ecosystems-400h.png"
+                      src="/wh-400h.jpeg"
                       className="home-image03"
                     />
                     <div className="home-content03">
                       <div className="home-header07">
-                        <h3 className="home-heading04">Development</h3>
-                        <p className="home-caption10">Coming soon.</p>
+                        <h3 className="home-heading04">Warehouse</h3>
+                        <p className="home-caption10">
+                          One step faster to your doorstep
+                        </p>
                       </div>
                       <div className="home-more2">
-                        <span className="home-caption11">Read More</span>
+                        <span className="home-caption11">Visit</span>
                         <svg viewBox="0 0 1024 1024" className="home-icon13">
                           <path d="M298.667 341.333h323.669l-353.835 353.835c-16.683 16.683-16.683 43.691 0 60.331s43.691 16.683 60.331 0l353.835-353.835v323.669c0 23.552 19.115 42.667 42.667 42.667s42.667-19.115 42.667-42.667v-426.667c0-5.803-1.152-11.307-3.243-16.341s-5.163-9.728-9.216-13.781c-0.043-0.043-0.043-0.043-0.085-0.085-3.925-3.925-8.619-7.083-13.781-9.216-5.035-2.091-10.539-3.243-16.341-3.243h-426.667c-23.552 0-42.667 19.115-42.667 42.667s19.115 42.667 42.667 42.667z"></path>
                         </svg>
@@ -274,16 +302,16 @@ const Home = (props) => {
                   <div data-role="current-banner" className="banner">
                     <img
                       alt="image"
-                      src="/slider-ecosystems-400h.png"
+                      src="https://play.teleporthq.io/static/svg/placeholders/no-image.svg"
                       className="home-image04"
                     />
                     <div className="home-content04">
                       <div className="home-header08">
-                        <h3 className="home-heading05">Integration</h3>
-                        <p className="home-caption12">Coming soon.</p>
+                        <h3 className="home-heading05">Exim </h3>
+                        <p className="home-caption12">Global trade partners</p>
                       </div>
                       <div className="home-more3">
-                        <span className="home-caption13">Read More</span>
+                        <span className="home-caption13">Visit</span>
                         <svg viewBox="0 0 1024 1024" className="home-icon15">
                           <path d="M298.667 341.333h323.669l-353.835 353.835c-16.683 16.683-16.683 43.691 0 60.331s43.691 16.683 60.331 0l353.835-353.835v323.669c0 23.552 19.115 42.667 42.667 42.667s42.667-19.115 42.667-42.667v-426.667c0-5.803-1.152-11.307-3.243-16.341s-5.163-9.728-9.216-13.781c-0.043-0.043-0.043-0.043-0.085-0.085-3.925-3.925-8.619-7.083-13.781-9.216-5.035-2.091-10.539-3.243-16.341-3.243h-426.667c-23.552 0-42.667 19.115-42.667 42.667s19.115 42.667 42.667 42.667z"></path>
                         </svg>
@@ -363,11 +391,11 @@ new BlazeSlider(el, {
         </section>
         <section className="home-objectives">
           <div className="home-content05">
-            <span className="home-text28">Objectives</span>
+            <span className="home-text035">Objectives</span>
             <div className="home-objectives-list">
               <div className="objective">
-                <h3 className="home-text29">Growth</h3>
-                <p className="home-text30">
+                <h3 className="home-text036">Growth</h3>
+                <p className="home-text037">
                   Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed
                   do eiusmod tempor incididunt ut labore et dolore magna aliqua.
                   <span
@@ -378,8 +406,8 @@ new BlazeSlider(el, {
                 </p>
               </div>
               <div className="objective home-objective1">
-                <h3 className="home-text31">Develop</h3>
-                <p className="home-text32">
+                <h3 className="home-text038">Develop</h3>
+                <p className="home-text039">
                   Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed
                   do eiusmod tempor incididunt ut labore et dolore magna aliqua.
                   <span
@@ -390,8 +418,8 @@ new BlazeSlider(el, {
                 </p>
               </div>
               <div className="objective home-objective2">
-                <h3 className="home-text33">Optimize</h3>
-                <p className="home-text34">
+                <h3 className="home-text040">Optimize</h3>
+                <p className="home-text041">
                   Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed
                   do eiusmod tempor incididunt ut labore et dolore magna aliqua.
                   <span
@@ -417,7 +445,7 @@ new BlazeSlider(el, {
                       }}
                     />
                   </span>
-                  <span className="home-text36">growth.</span>
+                  <span className="home-text043">growth.</span>
                   <br></br>
                 </h2>
               </div>
@@ -442,8 +470,8 @@ new BlazeSlider(el, {
             </div>
             <div className="home-testimonial">
               <div className="home-content07">
-                <span className="home-text38">Testimonial</span>
-                <p className="home-text39">
+                <span className="home-text045">Testimonial</span>
+                <p className="home-text046">
                   “Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed
                   do eiusmod tempor incididunt ut labore et dolore magna
                   aliqua.”
@@ -482,7 +510,7 @@ new BlazeSlider(el, {
                 <div className="home-header13">
                   <h2 className="home-heading08">
                     <span>A worlds class </span>
-                    <span className="home-text41">experience</span>
+                    <span className="home-text048">experience</span>
                   </h2>
                 </div>
                 <p className="home-caption17">
@@ -497,7 +525,7 @@ new BlazeSlider(el, {
                       <path d="M823.168 225.835l-439.168 439.168-183.168-183.168c-16.683-16.683-43.691-16.683-60.331 0s-16.683 43.691 0 60.331l213.333 213.333c16.683 16.683 43.691 16.683 60.331 0l469.333-469.333c16.683-16.683 16.683-43.691 0-60.331s-43.691-16.683-60.331 0z"></path>
                     </svg>
                   </div>
-                  <span className="home-text42">
+                  <span className="home-text049">
                     Duis aute irure dolor in reprehenderit
                   </span>
                 </div>
@@ -507,7 +535,7 @@ new BlazeSlider(el, {
                       <path d="M823.168 225.835l-439.168 439.168-183.168-183.168c-16.683-16.683-43.691-16.683-60.331 0s-16.683 43.691 0 60.331l213.333 213.333c16.683 16.683 43.691 16.683 60.331 0l469.333-469.333c16.683-16.683 16.683-43.691 0-60.331s-43.691-16.683-60.331 0z"></path>
                     </svg>
                   </div>
-                  <span className="home-text43">
+                  <span className="home-text050">
                     Lorem ipsum dolor sit amet
                   </span>
                 </div>
@@ -517,7 +545,7 @@ new BlazeSlider(el, {
                       <path d="M823.168 225.835l-439.168 439.168-183.168-183.168c-16.683-16.683-43.691-16.683-60.331 0s-16.683 43.691 0 60.331l213.333 213.333c16.683 16.683 43.691 16.683 60.331 0l469.333-469.333c16.683-16.683 16.683-43.691 0-60.331s-43.691-16.683-60.331 0z"></path>
                     </svg>
                   </div>
-                  <span className="home-text44">
+                  <span className="home-text051">
                     Voluptate velit esse cillum dolore eu fugiat nulla
                   </span>
                 </div>
@@ -527,7 +555,7 @@ new BlazeSlider(el, {
                       <path d="M823.168 225.835l-439.168 439.168-183.168-183.168c-16.683-16.683-43.691-16.683-60.331 0s-16.683 43.691 0 60.331l213.333 213.333c16.683 16.683 43.691 16.683 60.331 0l469.333-469.333c16.683-16.683 16.683-43.691 0-60.331s-43.691-16.683-60.331 0z"></path>
                     </svg>
                   </div>
-                  <span className="home-text45">
+                  <span className="home-text052">
                     Excepteur sint occaecat cupidatat non proident sunt in culpa
                   </span>
                 </div>
@@ -535,8 +563,8 @@ new BlazeSlider(el, {
             </div>
             <div className="home-testimonial1">
               <div className="home-content09">
-                <span className="home-text46">Testimonial</span>
-                <p className="home-text47">
+                <span className="home-text053">Testimonial</span>
+                <p className="home-text054">
                   “Excepteur sint occaecat cupidatat non proident, sunt in culpa
                   qui officia deserunt mollit anim id est laborum.”
                 </p>
@@ -571,7 +599,7 @@ new BlazeSlider(el, {
                     }}
                   />
                 </span>
-                <span className="home-text49">environment</span>
+                <span className="home-text056">environment</span>
                 <span> now!</span>
                 <br></br>
               </h2>
@@ -589,7 +617,7 @@ new BlazeSlider(el, {
             <div className="home-header15">
               <h2 className="home-heading10">
                 <span>Environment c</span>
-                <span className="home-text56">omparision</span>
+                <span className="home-text063">omparision</span>
                 <br></br>
               </h2>
             </div>
@@ -601,19 +629,19 @@ new BlazeSlider(el, {
           <div className="home-table">
             <div className="home-row">
               <div className="home-headers">
-                <span className="home-text58">Placeholder</span>
+                <span className="home-text065">Placeholder</span>
               </div>
               <div className="home-plans">
                 <div className="home-row01">
-                  <span className="home-text59">TOGHTR</span>
-                  <span className="home-text60">AGENCY</span>
-                  <span className="home-text61">FRELLANCE</span>
+                  <span className="home-text066">TOGHTR</span>
+                  <span className="home-text067">AGENCY</span>
+                  <span className="home-text068">FRELLANCE</span>
                 </div>
               </div>
             </div>
             <div className="home-row02">
               <div className="home-headers1">
-                <span className="home-text62">
+                <span className="home-text069">
                   Duis aute irure dolor in reprehenderit
                 </span>
               </div>
@@ -633,7 +661,7 @@ new BlazeSlider(el, {
             </div>
             <div className="home-row04">
               <div className="home-headers2">
-                <span className="home-text63">Lorem ipsum dolor sit amet</span>
+                <span className="home-text070">Lorem ipsum dolor sit amet</span>
               </div>
               <div className="home-plans2">
                 <div className="home-row05">
@@ -651,14 +679,14 @@ new BlazeSlider(el, {
             </div>
             <div className="home-row06">
               <div className="home-headers3">
-                <span className="home-text64">
+                <span className="home-text071">
                   Duis aute irure dolor in reprehenderit
                 </span>
               </div>
               <div className="home-plans3">
                 <div className="home-row07">
                   <div className="value">
-                    <span className="home-text65">Custom</span>
+                    <span className="home-text072">Custom</span>
                   </div>
                   <div className="value">
                     <Line></Line>
@@ -671,17 +699,17 @@ new BlazeSlider(el, {
             </div>
             <div className="home-row08">
               <div className="home-headers4">
-                <span className="home-text66">
+                <span className="home-text073">
                   Duis aute irure dolor in reprehenderit
                 </span>
               </div>
               <div className="home-plans4">
                 <div className="home-row09">
                   <div className="value">
-                    <span className="home-text67">Unlimited</span>
+                    <span className="home-text074">Unlimited</span>
                   </div>
                   <div className="value">
-                    <span className="home-text68">Limited</span>
+                    <span className="home-text075">Limited</span>
                   </div>
                   <div className="value">
                     <Line></Line>
@@ -691,7 +719,7 @@ new BlazeSlider(el, {
             </div>
             <div className="home-row10">
               <div className="home-headers5">
-                <span className="home-text69">Lorem ipsum dolor sit amet</span>
+                <span className="home-text076">Lorem ipsum dolor sit amet</span>
               </div>
               <div className="home-plans5">
                 <div className="home-row11">
@@ -702,14 +730,14 @@ new BlazeSlider(el, {
                     <Line></Line>
                   </div>
                   <div className="value">
-                    <span className="home-text70">Limited</span>
+                    <span className="home-text077">Limited</span>
                   </div>
                 </div>
               </div>
             </div>
             <div className="home-row12">
               <div className="home-headers6">
-                <span className="home-text71">Lorem ipsum dolor sit amet</span>
+                <span className="home-text078">Lorem ipsum dolor sit amet</span>
               </div>
               <div className="home-plans6">
                 <div className="home-row13">
@@ -727,7 +755,7 @@ new BlazeSlider(el, {
             </div>
             <div className="home-row14">
               <div className="home-headers7">
-                <span className="home-text72">Lorem ipsum dolor sit amet</span>
+                <span className="home-text079">Lorem ipsum dolor sit amet</span>
               </div>
               <div className="home-plans7">
                 <div className="home-row15">
@@ -735,7 +763,7 @@ new BlazeSlider(el, {
                     <Check></Check>
                   </div>
                   <div className="value">
-                    <span className="home-text73">Limited</span>
+                    <span className="home-text080">Limited</span>
                   </div>
                   <div className="value">
                     <Line></Line>
@@ -758,7 +786,7 @@ new BlazeSlider(el, {
                       }}
                     />
                   </span>
-                  <span className="home-text75">platform</span>
+                  <span className="home-text082">platform</span>
                   <br></br>
                 </h2>
               </div>
@@ -932,7 +960,7 @@ new BlazeSlider(el, {
                   }}
                 />
               </span>
-              <span className="home-text78">product development process</span>
+              <span className="home-text085">product development process</span>
               <br></br>
             </h2>
           </div>
@@ -1029,7 +1057,7 @@ new BlazeSlider(el, {
           <div className="home-header22">
             <h2 className="home-heading13">
               <span>Frequently asked </span>
-              <span className="home-text84">questions</span>
+              <span className="home-text091">questions</span>
               <span>
                 <span
                   dangerouslySetInnerHTML={{
@@ -1135,14 +1163,15 @@ new BlazeSlider(el, {
                   src="/logo-1500h.png"
                   className="home-image10"
                 />
-                <span className="home-text86">
-                  Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed
-                  do eiusmod tempor incididunt ut labore et dolore magna aliqua.
-                  <span
-                    dangerouslySetInnerHTML={{
-                      __html: ' ',
-                    }}
-                  />
+                <span className="home-text093">
+                  <span>i-City Centralwalk</span>
+                  <br></br>
+                  <span>Seksyen 7 </span>
+                  <br></br>
+                  <span>40000 Shah Alam</span>
+                  <br></br>
+                  <span>Selangor</span>
+                  <br></br>
                 </span>
               </div>
               <div className="home-links">
@@ -1160,7 +1189,7 @@ new BlazeSlider(el, {
                     </Link>
                     <Link href="/">
                       <a className="home-link03">
-                        <span className="home-text87">Why</span>
+                        <span className="home-text102">Why</span>
                         <br></br>
                       </a>
                     </Link>
@@ -1215,8 +1244,9 @@ new BlazeSlider(el, {
               </div>
             </div>
             <div className="home-bottom">
-              <span className="home-text89">
-                © 2024 togthr - All rights reserved
+              <span className="home-text104">
+                © 2024 Trans X Trading Enterprise (202403049014) - All rights
+                reserved
               </span>
               <button data-role="scroll-top" className="home-button5 button">
                 <img alt="image" src="/arrow.svg" className="home-image11" />
@@ -1366,16 +1396,16 @@ document.addEventListener("DOMContentLoaded", function() {
           .home-text {
             margin-bottom: var(--dl-space-space-unit);
           }
-          .home-text01 {
+          .home-text001 {
             margin-bottom: var(--dl-space-space-unit);
           }
-          .home-text02 {
+          .home-text002 {
             margin-bottom: var(--dl-space-space-unit);
           }
-          .home-text03 {
+          .home-text003 {
             margin-bottom: var(--dl-space-space-unit);
           }
-          .home-text04 {
+          .home-text004 {
             margin-bottom: var(--dl-space-space-unit);
           }
           .home-container2 {
@@ -1437,7 +1467,7 @@ document.addEventListener("DOMContentLoaded", function() {
             font-style: normal;
             font-weight: 500;
           }
-          .home-text08 {
+          .home-text008 {
             font-style: italic;
             font-family: 'Playfair Display';
             font-weight: 500;
@@ -1590,10 +1620,10 @@ document.addEventListener("DOMContentLoaded", function() {
             font-style: normal;
             font-weight: 400;
           }
-          .home-text15 {
+          .home-text015 {
             font-weight: 400;
           }
-          .home-text16 {
+          .home-text016 {
             font-style: italic;
             font-family: 'Playfair Display';
             font-weight: 500;
@@ -1672,7 +1702,7 @@ document.addEventListener("DOMContentLoaded", function() {
           }
           .home-heading02 {
             color: rgb(255, 255, 255);
-            font-size: 40px;
+            font-size: 24px;
             font-style: normal;
             font-weight: 500;
           }
@@ -1977,7 +2007,7 @@ document.addEventListener("DOMContentLoaded", function() {
             justify-content: space-between;
             border-top-width: 1px;
           }
-          .home-text28 {
+          .home-text035 {
             color: #7c7c80;
             font-size: 14px;
             line-height: 21px;
@@ -1992,33 +2022,33 @@ document.addEventListener("DOMContentLoaded", function() {
             flex-direction: row;
             justify-content: flex-start;
           }
-          .home-text29 {
+          .home-text036 {
             color: rgb(255, 255, 255);
             font-size: 24px;
             font-style: normal;
             font-weight: 500;
           }
-          .home-text30 {
+          .home-text037 {
             color: rgb(124, 124, 128);
             line-height: 24px;
           }
-          .home-text31 {
+          .home-text038 {
             color: rgb(255, 255, 255);
             font-size: 24px;
             font-style: normal;
             font-weight: 500;
           }
-          .home-text32 {
+          .home-text039 {
             color: rgb(124, 124, 128);
             line-height: 24px;
           }
-          .home-text33 {
+          .home-text040 {
             color: #ffffff;
             font-size: 24px;
             font-style: normal;
             font-weight: 500;
           }
-          .home-text34 {
+          .home-text041 {
             color: rgb(124, 124, 128);
             line-height: 24px;
           }
@@ -2061,7 +2091,7 @@ document.addEventListener("DOMContentLoaded", function() {
             font-style: normal;
             font-weight: 400;
           }
-          .home-text36 {
+          .home-text043 {
             font-style: italic;
             font-family: Playfair Display;
             font-weight: 500;
@@ -2098,14 +2128,14 @@ document.addEventListener("DOMContentLoaded", function() {
             flex-direction: column;
             justify-content: center;
           }
-          .home-text38 {
+          .home-text045 {
             color: rgb(124, 124, 128);
             font-size: 14px;
             line-height: 21px;
             letter-spacing: 5%;
             text-transform: uppercase;
           }
-          .home-text39 {
+          .home-text046 {
             color: rgb(255, 255, 255);
             font-style: italic;
             font-family: Playfair Display;
@@ -2251,7 +2281,7 @@ document.addEventListener("DOMContentLoaded", function() {
             font-style: normal;
             font-weight: 400;
           }
-          .home-text41 {
+          .home-text048 {
             font-family: Playfair Display;
           }
           .home-caption17 {
@@ -2289,7 +2319,7 @@ document.addEventListener("DOMContentLoaded", function() {
             width: 12px;
             height: 12px;
           }
-          .home-text42 {
+          .home-text049 {
             color: rgb(255, 255, 255);
             line-height: 24px;
           }
@@ -2314,7 +2344,7 @@ document.addEventListener("DOMContentLoaded", function() {
             width: 12px;
             height: 12px;
           }
-          .home-text43 {
+          .home-text050 {
             color: rgb(255, 255, 255);
             line-height: 24px;
           }
@@ -2339,7 +2369,7 @@ document.addEventListener("DOMContentLoaded", function() {
             width: 12px;
             height: 12px;
           }
-          .home-text44 {
+          .home-text051 {
             color: rgb(255, 255, 255);
             line-height: 24px;
           }
@@ -2364,7 +2394,7 @@ document.addEventListener("DOMContentLoaded", function() {
             width: 12px;
             height: 12px;
           }
-          .home-text45 {
+          .home-text052 {
             color: rgb(255, 255, 255);
             line-height: 24px;
           }
@@ -2383,14 +2413,14 @@ document.addEventListener("DOMContentLoaded", function() {
             flex-direction: column;
             justify-content: center;
           }
-          .home-text46 {
+          .home-text053 {
             color: rgb(124, 124, 128);
             font-size: 14px;
             line-height: 21px;
             letter-spacing: 5%;
             text-transform: uppercase;
           }
-          .home-text47 {
+          .home-text054 {
             color: rgb(255, 255, 255);
             font-style: italic;
             font-family: Playfair Display;
@@ -2466,7 +2496,7 @@ document.addEventListener("DOMContentLoaded", function() {
             text-align: center;
             font-weight: 500;
           }
-          .home-text49 {
+          .home-text056 {
             font-style: italic;
             font-family: Playfair Display;
             font-weight: 500;
@@ -2531,7 +2561,7 @@ document.addEventListener("DOMContentLoaded", function() {
             align-items: flex-start;
             flex-direction: row;
           }
-          .home-text58 {
+          .home-text065 {
             color: rgba(255, 255, 255, 0);
             width: 100%;
             font-style: normal;
@@ -2558,7 +2588,7 @@ document.addEventListener("DOMContentLoaded", function() {
             justify-content: space-between;
             border-bottom-width: 1px;
           }
-          .home-text59 {
+          .home-text066 {
             color: rgb(255, 255, 255);
             width: 100%;
             font-size: 14px;
@@ -2568,7 +2598,7 @@ document.addEventListener("DOMContentLoaded", function() {
             padding-bottom: var(--dl-space-space-oneandhalfunits);
             text-transform: uppercase;
           }
-          .home-text60 {
+          .home-text067 {
             color: rgb(255, 255, 255);
             width: 100%;
             font-size: 14px;
@@ -2578,7 +2608,7 @@ document.addEventListener("DOMContentLoaded", function() {
             padding-bottom: var(--dl-space-space-oneandhalfunits);
             text-transform: uppercase;
           }
-          .home-text61 {
+          .home-text068 {
             color: rgb(255, 255, 255);
             width: 100%;
             font-size: 14px;
@@ -2600,7 +2630,7 @@ document.addEventListener("DOMContentLoaded", function() {
             align-items: flex-start;
             flex-direction: row;
           }
-          .home-text62 {
+          .home-text069 {
             color: rgb(255, 255, 255);
             width: 100%;
             font-style: normal;
@@ -2639,7 +2669,7 @@ document.addEventListener("DOMContentLoaded", function() {
             align-items: flex-start;
             flex-direction: row;
           }
-          .home-text63 {
+          .home-text070 {
             color: rgb(255, 255, 255);
             width: 100%;
             font-style: normal;
@@ -2678,7 +2708,7 @@ document.addEventListener("DOMContentLoaded", function() {
             align-items: flex-start;
             flex-direction: row;
           }
-          .home-text64 {
+          .home-text071 {
             color: rgb(255, 255, 255);
             width: 100%;
             font-style: normal;
@@ -2705,7 +2735,7 @@ document.addEventListener("DOMContentLoaded", function() {
             justify-content: space-between;
             border-bottom-width: 1px;
           }
-          .home-text65 {
+          .home-text072 {
             color: rgb(255, 255, 255);
             width: 100%;
             font-size: 14px;
@@ -2724,7 +2754,7 @@ document.addEventListener("DOMContentLoaded", function() {
             align-items: flex-start;
             flex-direction: row;
           }
-          .home-text66 {
+          .home-text073 {
             color: rgb(255, 255, 255);
             width: 100%;
             font-style: normal;
@@ -2751,14 +2781,14 @@ document.addEventListener("DOMContentLoaded", function() {
             justify-content: space-between;
             border-bottom-width: 1px;
           }
-          .home-text67 {
+          .home-text074 {
             color: rgb(255, 255, 255);
             width: 100%;
             font-size: 14px;
             text-align: center;
             line-height: 32px;
           }
-          .home-text68 {
+          .home-text075 {
             color: rgb(255, 255, 255);
             width: 100%;
             font-size: 14px;
@@ -2777,7 +2807,7 @@ document.addEventListener("DOMContentLoaded", function() {
             align-items: flex-start;
             flex-direction: row;
           }
-          .home-text69 {
+          .home-text076 {
             color: rgb(255, 255, 255);
             width: 100%;
             font-style: normal;
@@ -2804,7 +2834,7 @@ document.addEventListener("DOMContentLoaded", function() {
             justify-content: space-between;
             border-bottom-width: 1px;
           }
-          .home-text70 {
+          .home-text077 {
             color: rgb(255, 255, 255);
             width: 100%;
             font-size: 14px;
@@ -2823,7 +2853,7 @@ document.addEventListener("DOMContentLoaded", function() {
             align-items: flex-start;
             flex-direction: row;
           }
-          .home-text71 {
+          .home-text078 {
             color: rgb(255, 255, 255);
             width: 100%;
             font-style: normal;
@@ -2862,7 +2892,7 @@ document.addEventListener("DOMContentLoaded", function() {
             align-items: flex-start;
             flex-direction: row;
           }
-          .home-text72 {
+          .home-text079 {
             color: rgb(255, 255, 255);
             width: 100%;
             font-style: normal;
@@ -2889,7 +2919,7 @@ document.addEventListener("DOMContentLoaded", function() {
             justify-content: space-between;
             border-bottom-width: 1px;
           }
-          .home-text73 {
+          .home-text080 {
             color: rgb(255, 255, 255);
             width: 100%;
             font-size: 14px;
@@ -3014,7 +3044,7 @@ document.addEventListener("DOMContentLoaded", function() {
             padding-left: var(--dl-space-space-fiveunits);
             padding-right: var(--dl-space-space-fiveunits);
           }
-          .home-text78 {
+          .home-text085 {
             font-style: italic;
             font-family: Playfair Display;
             font-weight: 500;
@@ -3248,7 +3278,7 @@ document.addEventListener("DOMContentLoaded", function() {
             font-style: normal;
             font-weight: 400;
           }
-          .home-text84 {
+          .home-text091 {
             font-style: italic;
             font-family: Playfair Display;
             font-weight: 500;
@@ -3486,8 +3516,8 @@ document.addEventListener("DOMContentLoaded", function() {
             width: 120px;
             object-fit: cover;
           }
-          .home-text86 {
-            color: #7c7c80;
+          .home-text093 {
+            color: rgb(124, 124, 128);
             line-height: 24px;
           }
           .home-links {
@@ -3554,7 +3584,7 @@ document.addEventListener("DOMContentLoaded", function() {
           .home-link03:hover {
             opacity: 0.5;
           }
-          .home-text87:hover {
+          .home-text102:hover {
             opacity: 0.5;
           }
           .home-column3 {
@@ -3720,7 +3750,7 @@ document.addEventListener("DOMContentLoaded", function() {
             flex-direction: row;
             justify-content: space-between;
           }
-          .home-text89 {
+          .home-text104 {
             color: rgb(124, 124, 128);
             font-size: 14px;
             line-height: 21px;
@@ -3801,7 +3831,12 @@ document.addEventListener("DOMContentLoaded", function() {
               font-size: 24px;
             }
             .home-caption06 {
+              color: rgb(204, 204, 255);
               max-width: 600px;
+              line-height: 24px;
+            }
+            .home-caption07 {
+              color: rgb(255, 255, 255);
             }
             .home-image02 {
               width: 100%;
@@ -3809,8 +3844,8 @@ document.addEventListener("DOMContentLoaded", function() {
             }
             .home-content02 {
               gap: var(--dl-space-space-unit);
-              width: 100%;
-              height: auto;
+              width: 226px;
+              height: 169px;
               padding-top: var(--dl-space-space-oneandhalfunits);
               padding-left: var(--dl-space-space-oneandhalfunits);
               padding-right: var(--dl-space-space-oneandhalfunits);
@@ -3822,10 +3857,21 @@ document.addEventListener("DOMContentLoaded", function() {
               width: 100%;
             }
             .home-heading03 {
+              color: rgb(255, 255, 255);
               font-size: 24px;
+              font-style: normal;
+              font-weight: 500;
             }
             .home-caption08 {
+              color: rgb(204, 204, 255);
               max-width: 600px;
+              line-height: 24px;
+            }
+            .home-caption09 {
+              color: rgb(255, 255, 255);
+            }
+            .home-slide2 {
+              position: relative;
             }
             .home-image03 {
               width: 100%;
@@ -3833,8 +3879,8 @@ document.addEventListener("DOMContentLoaded", function() {
             }
             .home-content03 {
               gap: var(--dl-space-space-unit);
-              width: 100%;
-              height: auto;
+              width: 194px;
+              height: 169px;
               padding-top: var(--dl-space-space-oneandhalfunits);
               padding-left: var(--dl-space-space-oneandhalfunits);
               padding-right: var(--dl-space-space-oneandhalfunits);
@@ -3846,10 +3892,16 @@ document.addEventListener("DOMContentLoaded", function() {
               width: 100%;
             }
             .home-heading04 {
+              color: rgb(255, 255, 255);
               font-size: 24px;
             }
             .home-caption10 {
+              color: rgb(204, 204, 255);
               max-width: 600px;
+              line-height: 24px;
+            }
+            .home-caption11 {
+              color: rgb(255, 255, 255);
             }
             .home-image04 {
               width: 100%;
@@ -3857,8 +3909,8 @@ document.addEventListener("DOMContentLoaded", function() {
             }
             .home-content04 {
               gap: var(--dl-space-space-unit);
-              width: 100%;
-              height: auto;
+              width: 187px;
+              height: 164px;
               padding-top: var(--dl-space-space-oneandhalfunits);
               padding-left: var(--dl-space-space-oneandhalfunits);
               padding-right: var(--dl-space-space-oneandhalfunits);
@@ -3870,10 +3922,17 @@ document.addEventListener("DOMContentLoaded", function() {
               width: 100%;
             }
             .home-heading05 {
-              font-size: 24px;
+              color: rgb(255, 255, 255);
             }
             .home-caption12 {
+              color: rgb(204, 204, 255);
               max-width: 600px;
+              line-height: 24px;
+            }
+            .home-caption13 {
+              color: rgb(255, 255, 255);
+              font-style: normal;
+              font-weight: 500;
             }
             .home-content05 {
               gap: var(--dl-space-space-oneandhalfunits);
@@ -3895,7 +3954,7 @@ document.addEventListener("DOMContentLoaded", function() {
             .home-testimonial {
               padding-bottom: var(--dl-space-space-threeunits);
             }
-            .home-text39 {
+            .home-text046 {
               max-width: 560px;
             }
             .home-images {
@@ -3923,7 +3982,7 @@ document.addEventListener("DOMContentLoaded", function() {
             .home-headers {
               flex: 0;
             }
-            .home-text58 {
+            .home-text065 {
               color: rgba(255, 255, 255, 0);
               width: 0px;
               font-style: normal;
@@ -3941,7 +4000,7 @@ document.addEventListener("DOMContentLoaded", function() {
               flex: 0 0 auto;
               width: 100%;
             }
-            .home-text62 {
+            .home-text069 {
               padding-top: var(--dl-space-space-halfunit);
               padding-bottom: var(--dl-space-space-unit);
               border-bottom-width: 0px;
@@ -3959,7 +4018,7 @@ document.addEventListener("DOMContentLoaded", function() {
               flex: 0 0 auto;
               width: 100%;
             }
-            .home-text63 {
+            .home-text070 {
               width: 100%;
               padding-top: var(--dl-space-space-halfunit);
               padding-bottom: var(--dl-space-space-unit);
@@ -3978,7 +4037,7 @@ document.addEventListener("DOMContentLoaded", function() {
               flex: 0 0 auto;
               width: 100%;
             }
-            .home-text64 {
+            .home-text071 {
               padding-top: var(--dl-space-space-halfunit);
               padding-bottom: var(--dl-space-space-unit);
               border-bottom-width: 0px;
@@ -3996,7 +4055,7 @@ document.addEventListener("DOMContentLoaded", function() {
               flex: 0 0 auto;
               width: 100%;
             }
-            .home-text66 {
+            .home-text073 {
               padding-top: var(--dl-space-space-halfunit);
               padding-bottom: var(--dl-space-space-unit);
               border-bottom-width: 0px;
@@ -4014,7 +4073,7 @@ document.addEventListener("DOMContentLoaded", function() {
               flex: 0 0 auto;
               width: 100%;
             }
-            .home-text69 {
+            .home-text076 {
               padding-top: var(--dl-space-space-halfunit);
               padding-bottom: var(--dl-space-space-unit);
               border-bottom-width: 0px;
@@ -4032,7 +4091,7 @@ document.addEventListener("DOMContentLoaded", function() {
               flex: 0 0 auto;
               width: 100%;
             }
-            .home-text71 {
+            .home-text078 {
               padding-top: var(--dl-space-space-halfunit);
               padding-bottom: var(--dl-space-space-unit);
               border-bottom-width: 0px;
@@ -4050,7 +4109,7 @@ document.addEventListener("DOMContentLoaded", function() {
               flex: 0 0 auto;
               width: 100%;
             }
-            .home-text72 {
+            .home-text079 {
               padding-top: var(--dl-space-space-halfunit);
               padding-bottom: var(--dl-space-space-unit);
               border-bottom-width: 0px;
@@ -4064,7 +4123,7 @@ document.addEventListener("DOMContentLoaded", function() {
             .home-heading11 {
               color: rgb(255, 255, 255);
             }
-            .home-text75 {
+            .home-text082 {
               font-style: italic;
               font-family: Playfair Display;
               font-weight: 500;
@@ -4256,7 +4315,7 @@ document.addEventListener("DOMContentLoaded", function() {
               line-height: 23px;
               margin-right: 0px;
             }
-            .home-text13 {
+            .home-text013 {
               font-size: 18px;
               max-width: 90%;
               line-height: 23px;
@@ -4459,7 +4518,7 @@ document.addEventListener("DOMContentLoaded", function() {
               line-height: 24px;
               padding-bottom: var(--dl-space-space-oneandhalfunits);
             }
-            .home-text38 {
+            .home-text045 {
               font-size: 12px;
               line-height: 18px;
             }
@@ -4508,7 +4567,7 @@ document.addEventListener("DOMContentLoaded", function() {
               font-size: 16px;
               line-height: 24px;
             }
-            .home-text46 {
+            .home-text053 {
               font-size: 12px;
               line-height: 18px;
             }
@@ -4558,59 +4617,59 @@ document.addEventListener("DOMContentLoaded", function() {
               font-size: 16px;
               line-height: 24px;
             }
-            .home-text59 {
+            .home-text066 {
               font-size: 12px;
               line-height: 14px;
             }
-            .home-text60 {
+            .home-text067 {
               font-size: 12px;
               line-height: 14px;
             }
-            .home-text61 {
+            .home-text068 {
               font-size: 12px;
               line-height: 14px;
             }
-            .home-text62 {
+            .home-text069 {
               font-size: 12px;
               line-height: 18px;
             }
-            .home-text63 {
+            .home-text070 {
               font-size: 12px;
               line-height: 18px;
             }
-            .home-text64 {
+            .home-text071 {
               font-size: 12px;
               line-height: 18px;
             }
-            .home-text65 {
+            .home-text072 {
               line-height: 21px;
             }
-            .home-text66 {
+            .home-text073 {
               font-size: 12px;
               line-height: 18px;
             }
-            .home-text67 {
+            .home-text074 {
               line-height: 21px;
             }
-            .home-text68 {
+            .home-text075 {
               line-height: 21px;
             }
-            .home-text69 {
+            .home-text076 {
               font-size: 12px;
               line-height: 18px;
             }
-            .home-text70 {
+            .home-text077 {
               line-height: 21px;
             }
-            .home-text71 {
+            .home-text078 {
               font-size: 12px;
               line-height: 18px;
             }
-            .home-text72 {
+            .home-text079 {
               font-size: 12px;
               line-height: 18px;
             }
-            .home-text73 {
+            .home-text080 {
               line-height: 21px;
             }
             .home-data {
@@ -4889,17 +4948,17 @@ document.addEventListener("DOMContentLoaded", function() {
             .home-image05 {
               height: 400px;
             }
-            .home-text28 {
+            .home-text035 {
               font-size: 12px;
               line-height: 18px;
             }
-            .home-text29 {
+            .home-text036 {
               font-size: 18px;
             }
-            .home-text31 {
+            .home-text038 {
               font-size: 18px;
             }
-            .home-text33 {
+            .home-text040 {
               font-size: 18px;
             }
             .home-heading07 {
@@ -4908,7 +4967,7 @@ document.addEventListener("DOMContentLoaded", function() {
             .home-heading08 {
               color: rgb(255, 255, 255);
             }
-            .home-text41 {
+            .home-text048 {
               font-style: italic;
               font-family: Playfair Display;
               font-weight: 500;
@@ -4930,7 +4989,7 @@ document.addEventListener("DOMContentLoaded", function() {
               color: rgb(255, 255, 255);
               text-align: center;
             }
-            .home-text56 {
+            .home-text063 {
               font-style: italic;
               font-family: Playfair Display;
               font-weight: 500;
